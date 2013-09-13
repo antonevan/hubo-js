@@ -5,6 +5,14 @@
  */
 var WebGLRobots = {version: 0.0};
 
+var raycast = new THREE.ReusableRay();
+var projector = new THREE.Projector();
+var directionVector = new THREE.Vector3();
+
+var numbered = 0;
+var parts = [];
+
+
 WebGLRobots.str2vec = function(coords) {
     coords = coords.split(' ');
     var v = new THREE.Vector3();
@@ -17,6 +25,7 @@ WebGLRobots.str2vec = function(coords) {
 WebGLRobots.getDirName = function(filename) {
     return filename.replace(/[^\/\\]*$/,"");
 }
+
 
 WebGLRobots.DefaultCanvas = function(container, display_width, display_height) {
     if (display_width == null) {display_width = 480;};
@@ -49,8 +58,11 @@ WebGLRobots.DefaultCanvas = function(container, display_width, display_height) {
     // TODO: File bug with TrackballControls.js to have this set automatically set by the camera angle.
     controls.target=new THREE.Vector3(0,0,-0.3);
     controls.addEventListener( 'change', render );
-
-    // Add some lights so we can see the robot 
+	// added a event listener so that when clicked it listens for a click. when clicked onDocumentMouseDown should execute.
+	document.addEventListener( 'click', onDocumentMouseDown, false);
+    
+	
+	// Add some lights so we can see the robot 
     var ambient = new THREE.AmbientLight( 0x101030 );
     scene.add( ambient );
 
@@ -61,6 +73,8 @@ WebGLRobots.DefaultCanvas = function(container, display_width, display_height) {
     var backlight = new THREE.DirectionalLight( 0xffeedd );
     backlight.position.set( -1, -0.1, -1 ).normalize();
     scene.add( backlight );
+	
+
 
     // If the rendering canvas is desired at a size other than the default,
     // this function will resize the canvas and update the trackball control.
@@ -82,6 +96,44 @@ WebGLRobots.DefaultCanvas = function(container, display_width, display_height) {
     function render(timestamp) {
         renderer.render( scene, camera );
     }
+    //Evan added this function   
+    function onDocumentMouseDown( event ) {
+	
+		//event.preventDefault();
+	
+/* 		directionVector.set( ( event.clientX / 480 ) * 2 - 1,  -( event.clientY / 480 ) * 2 + 1, .5)
+	
+		projector.unprojectVector(directionVector, camera);
+
+            // Substract the vector representing the camera position
+            directionVector.sub(camera.position);
+
+            // Normalize the vector, to avoid large numbers from the
+            // projection and substraction
+            directionVector.normalize();
+
+            // Now our direction vector holds the right numbers!
+            raycast.setSource(camera.position, directionVector);
+			
+			
+			var intersects = rayast.intersectObjects(scene.children);
+		
+		if (intersects.length) {
+			// intersections are, by default, ordered by distance,
+			// so we only care for the first one. The intersection
+			// object holds the intersection point, the face that's
+			// been "hit" by the ray, and the object to which that
+			// face belongs. We only care for the object itself.
+			intersects[0].children[0].material.color.setRGB(1,0,0);
+		} */
+		
+		parts[numbered++].material.color.setRGB(1,0,0);
+		
+		
+        renderer.render( scene, camera );
+    }
+	
+	
 
     // Begin the animation loop.
     requestAnimationFrame(animate);
@@ -167,6 +219,7 @@ WebGLRobots.Robot = function() {
                 if (!Detector.webgl) {
                     if (node.children[0]) {
                         node.children[0].material.overdraw = true;
+						
                     }
                 }
                 node.name = name;
@@ -246,6 +299,7 @@ WebGLRobots.Robot = function() {
                 // Right now I'm using the collision because it is smaller and looks nicer than the visual geometry for Hubo.
                 var filename = $(this).find("collision geometry mesh").attr("filename");
                 if (typeof filename === 'undefined') {
+					
                     createLink(name, new THREE.Object3D());
                 } else {
                     filename = path + filename;
@@ -253,9 +307,17 @@ WebGLRobots.Robot = function() {
                     var loader = new ColladaLoader2();
                     loader.setLog(onLoaderLogMessage);
                     loader.load(filename, 
-                        function(collada) {
+                        //Change color of each joing being added from Collada
+					   function(collada) {
+							
                             var node = collada.scene;
-                            createLink(name, node, filename);
+							//Evan added code
+							//Also works to change color - node.children[0].material = new THREE.MeshLambertMaterial({color: 0xff0000});// applying a new material over it
+                            //setting color of the material property
+							node.children[0].material.color.setRGB(0,1,0);
+							parts.push(node.children[0]);
+							
+							createLink(name, node, filename);
                         }, 
                         onProgress);
                 }
@@ -281,6 +343,7 @@ WebGLRobots.Robot = function() {
         // }   
     }
 };
+
 
 // /* * * * * * * * *
 //  * Example usage *

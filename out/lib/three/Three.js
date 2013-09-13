@@ -6054,7 +6054,7 @@ THREE.EventDispatcher.prototype = {
 
 			intersectObject( object.getObjectForDistance( distance ), raycaster, intersects );
 
-		} else if ( object instanceof THREE.Mesh ) {
+		} else if ( object instanceof object.matrixWorld && object.geometry ) {
 
 			// Checking boundingSphere distance to ray
 			matrixPosition.getPositionFromMatrix( object.matrixWorld );

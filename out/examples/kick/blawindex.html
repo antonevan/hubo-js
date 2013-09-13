@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Evan's Page | Hubo-js</title>
+    <meta charset="utf-8">
+    <!-- Jquery makes life so much easier. Load it before everything else!-->
+    <script src="../../lib/jquery/jquery.min.js"></script><meta http-equiv="X-Powered-By" content="DocPad v6.49.1"/>
+  </head>
+  <body>
+    <p>This page, "minimal.html", aims to demonstrate the bare minimum needed to add Hubo to a webpage.Take a look at the page's source to see what JavaScript to include. </p>
+    <p>You will also need to have the URDF model and COLLADA files on your server.</p>
+    <p>Hubo should load below within a minute, if you're running NodeJS locally.<a id="move_link" href="#" style="display: none;">Move LSP</a></p>
+    <table border="1">
+      <tr>
+        <td>
+          <div id="hubo_container" style="position:relative">
+            <div id="load" style="position:absolute"></div>
+          </div>
+          <div style="text-align: center;">LEFT button ROTATES. RIGHT button PANS. MIDDLE wheel ZOOMS.</div>
+        </td>
+      </tr>
+    </table>
+    <script>window.local_root = '../../'</script>
+    <!-- Used for rendering 3D Hubo -->
+    <script src="../../lib/three/three.min.js"></script>
+    <script src="../../lib/three/Detector.js"></script>
+    <script src="../../lib/three/ColladaLoader2.js"></script>
+    <script src="../../lib/three/TrackballControls.js"></script>
+    <!-- Our code -->
+    <script src="../../lib/dict/dict.js"></script>
+    <script src="../../src/ReusableRay.js"></script>
+    <script src="../../src/WebGLRobots.js"></script>
+    <script src="../../src/hubo.js"></script>
+    <script src="kick.js"></script>
+  </body>
+</html>

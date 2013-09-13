@@ -15,7 +15,7 @@
         <mesh filename="./meshes/Body_Torso_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -45,7 +45,7 @@
         <mesh filename="./meshes/Body_Head_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -65,7 +65,7 @@
         <mesh filename="./meshes/Body_LSP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -85,7 +85,7 @@
         <mesh filename="./meshes/Body_LSR_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -105,7 +105,7 @@
         <mesh filename="./meshes/Body_LSY_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -125,7 +125,7 @@
         <mesh filename="./meshes/Body_LEP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -145,7 +145,7 @@
         <mesh filename="./meshes/Body_LWY_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -165,7 +165,7 @@
         <mesh filename="./meshes/Body_LWP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -185,7 +185,7 @@
         <mesh filename="./meshes/leftThumbProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -205,7 +205,7 @@
         <mesh filename="./meshes/leftThumbMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -225,7 +225,7 @@
         <mesh filename="./meshes/leftThumbDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -245,7 +245,7 @@
         <mesh filename="./meshes/leftPinkyProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -265,7 +265,7 @@
         <mesh filename="./meshes/leftPinkyMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -285,7 +285,7 @@
         <mesh filename="./meshes/leftPinkyDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -305,7 +305,7 @@
         <mesh filename="./meshes/leftRingProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -325,7 +325,7 @@
         <mesh filename="./meshes/leftRingMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -345,7 +345,7 @@
         <mesh filename="./meshes/leftRingDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -365,7 +365,7 @@
         <mesh filename="./meshes/leftMiddleProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -385,7 +385,7 @@
         <mesh filename="./meshes/leftMiddleMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -405,7 +405,7 @@
         <mesh filename="./meshes/leftMiddleDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -425,7 +425,7 @@
         <mesh filename="./meshes/leftIndexProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -445,7 +445,7 @@
         <mesh filename="./meshes/leftIndexMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -465,7 +465,7 @@
         <mesh filename="./meshes/leftIndexDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -485,7 +485,7 @@
         <mesh filename="./meshes/Body_RSP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -505,7 +505,7 @@
         <mesh filename="./meshes/Body_RSR_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -525,7 +525,7 @@
         <mesh filename="./meshes/Body_RSY_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -545,7 +545,7 @@
         <mesh filename="./meshes/Body_REP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -565,7 +565,7 @@
         <mesh filename="./meshes/Body_RWY_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -585,7 +585,7 @@
         <mesh filename="./meshes/Body_RWP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -605,7 +605,7 @@
         <mesh filename="./meshes/rightThumbProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -625,7 +625,7 @@
         <mesh filename="./meshes/rightThumbMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -645,7 +645,7 @@
         <mesh filename="./meshes/rightThumbDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -665,7 +665,7 @@
         <mesh filename="./meshes/rightPinkyProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -685,7 +685,7 @@
         <mesh filename="./meshes/rightPinkyMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -705,7 +705,7 @@
         <mesh filename="./meshes/rightPinkyDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -725,7 +725,7 @@
         <mesh filename="./meshes/rightRingProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -745,7 +745,7 @@
         <mesh filename="./meshes/rightRingMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -765,7 +765,7 @@
         <mesh filename="./meshes/rightRingDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -785,7 +785,7 @@
         <mesh filename="./meshes/rightMiddleProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -805,7 +805,7 @@
         <mesh filename="./meshes/rightMiddleMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -825,7 +825,7 @@
         <mesh filename="./meshes/rightMiddleDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -845,7 +845,7 @@
         <mesh filename="./meshes/rightIndexProximal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -865,7 +865,7 @@
         <mesh filename="./meshes/rightIndexMedial_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -885,7 +885,7 @@
         <mesh filename="./meshes/rightIndexDistal_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -905,7 +905,7 @@
         <mesh filename="./meshes/Body_Hip_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -925,7 +925,7 @@
         <mesh filename="./meshes/Body_LHY_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -945,7 +945,7 @@
         <mesh filename="./meshes/Body_LHR_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -965,7 +965,7 @@
         <mesh filename="./meshes/Body_LHP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -985,7 +985,7 @@
         <mesh filename="./meshes/Body_LKP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -1005,7 +1005,7 @@
         <mesh filename="./meshes/Body_LAP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -1025,7 +1025,7 @@
         <mesh filename="./meshes/Body_LAR_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -1045,7 +1045,7 @@
         <mesh filename="./meshes/Body_RHY_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -1065,7 +1065,7 @@
         <mesh filename="./meshes/Body_RHR_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -1085,7 +1085,7 @@
         <mesh filename="./meshes/Body_RHP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -1105,7 +1105,7 @@
         <mesh filename="./meshes/Body_RKP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -1125,7 +1125,7 @@
         <mesh filename="./meshes/Body_RAP_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
@@ -1145,7 +1145,7 @@
         <mesh filename="./meshes/Body_RAR_vis.dae"/>
       </geometry>
       <material name="random">
-        <color rgba="0.800000 0.800000 0.500000 1"/>
+        <color rgba="0.200000 0.200000 0.200000 1"/>
       </material>
     </visual>
     <collision>
